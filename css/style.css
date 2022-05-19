@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D0C9C0;
+}
+
+.headerHome{
+    color: aliceblue;
+    display: grid;
+    text-align:center;
+    background-color: #5F7161; 
+
+}
+
+.navegacionHome{
+    color: aliceblue;
+    background-color: #6D8B74;
+}
+
+.navegacionHome ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+}
+
+.navegacionHome ul li{
+    padding: 1rem;
+}
+
+.logoPagina{
+    background-image: url(/img/logoFondo.jpg);
+    background-size: cover;
+    text-align: start;
+} 
+
+.mainHome{
+    color: aliceblue;
+    background-color: #5F7161;
+}
+
+
+.sectionHome{
+    background-color: #D0C9C0;
+}
+
+
+
+footer{
+text-align: end;
+}
+
+
